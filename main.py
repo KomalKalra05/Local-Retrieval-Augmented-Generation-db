@@ -8,7 +8,7 @@ import db
 
 ET = web.ExtractText()
 CK = ck.ChunksConversion()
-LLM = llm.gemma("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")
+LLM = llm.gemma("")
 
 app = Flask(__name__)
 
